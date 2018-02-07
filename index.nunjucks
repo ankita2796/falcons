@@ -1,0 +1,66 @@
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<div>
+	<div class="custom-nav-wrapper">
+		<nav>
+		    <div class="nav-wrapper">
+		     	<a href="#!" class="brand-logo">FALCONS</a>
+		    	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		    	<ul class="right hide-on-med-and-down">
+		        	<li><a href="#">About</a></li>
+		        	<li><a href="#">Contact</a></li>
+		        	<li><a href="#">Team</a></li>
+		        	<li><a href="#">Aeroplanes</a></li>
+		      	</ul>
+		      		<ul class="side-nav" id="mobile-demo">
+		        	<li><a href="#">About</a></li>
+		        	<li><a href="#">Team</a></li>
+		        	<li><a href="#">Contact</a></li>
+		        	<li><a href="#">Aeroplane</a></li>
+		      	</ul>
+		    </div>
+		 </nav>
+	</div>
+	<!-- custom nav wrapper ends  -->
+	<br><br>
+
+	<div class="quote-wrapper">
+		<h3>Quickest Acceleration.</h3>
+		<h3>Longest Range. The Safest Cars Ever.</h3>
+	</div>
+	<!-- quote-wrapper ends -->
+
+	<br><br>
+	<div class="row">
+		<div class="col m3">
+			
+		</div>
+		<div class="col s12 m6" class="buttons-div" style="text-align: center;">
+			<button class="first-button">Aeroplanes</button> 
+			<button class="first-button">Team</button>
+			<button class="first-button">Awards</button>
+			<button class="first-button">Join Us</button>
+		</div>
+		<div class="col m3">
+			
+		</div>
+		
+	</div>
+	<div class="custom-footer-wrapper hide-on-small-only">
+		<footer>
+			<ul>
+				<li><a href="#">Privacy& Legal</a><span>&bull;</span></li>
+				<li><a href="#">Contact</a><span>&bull;</span></li>
+				<li><a href="#">Careers</a><span>&bull;</span></li>
+				<li><a href="#">Forums</a><span>&bull;</span></li>
+				<li><a href="#">Locations</a></li>
+			</ul>
+		</footer>
+	</div>
+	<!-- custom-footer-wrapper ends -->
+
+</div>
+
+{% endblock %}
